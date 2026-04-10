@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+myenv/
+
+# Secrets
+.env
+
+# Database (all except the pre-populated demo)
+*.db
+!regulatorydata.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
