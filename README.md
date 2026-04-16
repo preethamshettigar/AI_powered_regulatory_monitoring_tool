@@ -4,7 +4,7 @@
 
 Built to monitor RBI and IFSCA circulars, analyzes relevance using AI, and provides an interactive Streamlit dashboard.
 
----
+📺 **Demo Video (Loom):** https://www.loom.com/share/d6484696265b4c488e0158507b3ba7c2
 
 ## 🚀 Quick Start (Pre-Populated Demo)
 
@@ -14,6 +14,7 @@ The repository includes a pre-built database (`regulatorydata.db`) with **20 ana
    ```bash
    git clone https://github.com/preethamshettigar/AI_powered_regulatory_monitoring_tool.git
    cd AI_powered_regulatory_monitoring_tool
+   ```
 
 
 2. **Create and activate a virtual environment** (recommended):
@@ -62,8 +63,6 @@ To fetch **new** circulars from RBI and IFSCA with AI analysis:
 
 4. **Refresh the dashboard** or restart Streamlit.
 
----
-
 ## 📂 Project Structure
 
 | File | Purpose |
@@ -74,13 +73,6 @@ To fetch **new** circulars from RBI and IFSCA with AI analysis:
 | `.env.example` | Template for Groq API key. |
 | `regulatorydata.db` | Pre-populated SQLite database for instant demo. |
 | `.gitignore` | Excludes secrets, virtual env, and temporary files. |
-
----
-
----
-
-
-
 
 ## 📦 Dependencies
 
